@@ -1,0 +1,18 @@
+{
+  "name": "citibike-electron",
+  "version": "0.1.0",
+  "description": "Mac menu bar app to view citibike availability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mac",
+    "Electron"
+  ],
+  "author": "Avi Das",
+  "license": "MIT",
+  "dependencies": {
+    "menubar": "^5.2.3"
+  }
+}

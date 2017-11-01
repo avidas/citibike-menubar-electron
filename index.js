@@ -1,4 +1,6 @@
-var menubar = require('menubar')
+const menubar = require('menubar')
+const gbfs = require('gbfs-client')
+const gbfsClient = new gbfs('https://gbfs.citibikenyc.com/gbfs/en/')
 
 var mb = menubar()
 

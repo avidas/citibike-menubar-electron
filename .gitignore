@@ -58,3 +58,5 @@ typings/
 .env
 
 Example*
+*.swp
+*.DS_Store

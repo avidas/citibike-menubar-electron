@@ -2,10 +2,11 @@
   "name": "citibike-electron",
   "version": "0.1.0",
   "description": "Mac menu bar app to view citibike availability.",
-  "main": "index.js",
+  "main": "app/index.js",
   "keywords": [
     "Mac",
-    "Electron"
+    "Electron",
+    "citibike"
   ],
   "author": "Avi Das",
   "license": "MIT",

@@ -8,9 +8,9 @@ var mb = menubar(opts)
 
 var getAvailability = function () {
   // get gbfs format citibike information
+  console.log('ola')
 };
 
 mb.on('ready', function ready () {
-  console.log('app is ready')
-  // your app code here
+  console.log('ola')
 })

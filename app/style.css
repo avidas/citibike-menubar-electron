@@ -42,7 +42,7 @@ textarea, input, div, button { outline: none; }
   height: 100%;
 }
 
-.stations-list {
+.station-list {
   margin-top: 65px;
   padding: 0 10px;
 }
@@ -52,4 +52,21 @@ textarea, input, div, button { outline: none; }
   box-shadow: 1px 1px 1px 1px rgba(205, 228, 224, 0.78);
   padding: 0.5em;
   margin-bottom: 1em;
+}
+
+.station-text {
+  background-color: rgb(228, 248, 245);
+  padding: 0.5em;
+  min-width: 100%;
+  max-height: 10em;
+  white-space: pre;
+  overflow: scroll;
+}
+
+.station-text::-webkit-scrollbar {
+  display: none;
+}
+
+.station-list-item:hover {
+  display: inline-block;
 }
